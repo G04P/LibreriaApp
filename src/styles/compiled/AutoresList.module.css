@@ -1,0 +1,192 @@
+.autoresList {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+[data-theme=dark] .cardsContainer {
+  background-color: #333;
+  color: white;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+}
+.buttons .buttonAdd {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.buttons .buttonAdd:hover {
+  background-color: #45a049;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
+.confirm-delete-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cancel-button,
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #333;
+}
+.cancel-button:hover {
+  background-color: #bbb;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.confirm-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.confirm-button:hover {
+  background-color: #c0392b;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.trashButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 1.2rem;
+  z-index: 10;
+}
+.trashButton:hover {
+  color: darkred;
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+}
+
+.name {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: black;
+}
+
+.details {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.detailsButton {
+  margin-top: 10px;
+  background-color: #020202;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+}
+.detailsButton:hover {
+  background-color: #6d0000;
+}
+
+.editButton {
+  margin-top: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+}
+.editButton:hover {
+  background-color: #007bb5;
+}
+
+/*# sourceMappingURL=AutoresList.module.css.map */

@@ -1,0 +1,49 @@
+[data-theme=dark] .autorDetail, .librosList, .Titutlo {
+  color: #fff;
+}
+
+.autorDetail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.autorDetail .title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.autorDetail .autorInfo {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+.autorDetail .librosList {
+  list-style: none;
+  padding: 0;
+}
+.autorDetail .librosList .libroItem {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+.autorDetail .librosList .libroItem:hover {
+  background-color: white;
+}
+.autorDetail .librosList .libroItem h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0 0 5px;
+}
+.autorDetail .librosList .libroItem p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/*# sourceMappingURL=AutorDetail.module.css.map */

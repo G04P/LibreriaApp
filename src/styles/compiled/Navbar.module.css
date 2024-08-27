@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  height: 6rem;
+  box-sizing: border-box;
+}
+.navbar .logo {
+  flex: 2;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar .navLinks {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+}
+.navbar .navLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.navbar .navLinks a:hover {
+  color: red;
+}
+.navbar .switch {
+  margin-left: 20px;
+  flex: 0.5;
+}
+.navbar .menuIcon {
+  display: none;
+}
+@media (max-width: 960px) {
+  .navbar .navLinks {
+    display: none;
+  }
+  .navbar .menuIcon {
+    display: block;
+  }
+}
+
+.drawerContent {
+  padding: 20px;
+}
+
+.drawerHeader {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.closeIcon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

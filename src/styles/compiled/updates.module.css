@@ -1,0 +1,75 @@
+.formGroup {
+  margin-bottom: 20px;
+}
+.formGroup label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.formGroup textarea {
+  resize: vertical;
+}
+
+.submitButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.submitButton .submitButton:hover {
+  background-color: #45a049;
+}
+
+.modalOverlay {
+  position: fixed;
+  color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+  font-size: 18px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.closeButton:hover {
+  color: #ff6347;
+}
+
+/*# sourceMappingURL=updates.module.css.map */
