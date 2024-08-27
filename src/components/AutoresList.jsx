@@ -2,7 +2,7 @@
 import { useContext, useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { GlobalContext } from "../Context/GlobalContext";
-import styles from "styles/compiled/AutoresList.module.css";
+import styles from "../styles/compiled/AutoresList.module.css";
 import AddAutores from "./AddAutores";
 import { FaTrash, FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
