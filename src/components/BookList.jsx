@@ -72,7 +72,7 @@ const BookList = () => {
         fetchLibros(); 
     };
 
-    // Paginación
+
     const indexOfLastLibro = currentPage * librosPerPage;
     const indexOfFirstLibro = indexOfLastLibro - librosPerPage;
     const currentLibros = libros.slice(indexOfFirstLibro, indexOfLastLibro);

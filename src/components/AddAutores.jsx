@@ -30,7 +30,7 @@ const AddAutores = ({ onClose, isOpen, onAutorCreated }) => {
             setId('');
             onClose();
             if (onAutorCreated) {
-                onAutorCreated(); // Llama a esta función para refrescar la lista
+                onAutorCreated(); 
             }
         } catch (error) {
             toast.error('Error al crear el Autor');

@@ -30,7 +30,7 @@ const AddBooks = ({ onClose, isOpen, onBookCreated }) => {
             setAutorID('');
             onClose();
             if (onBookCreated) {
-                onBookCreated(); // Llama a esta función para refrescar la lista
+                onBookCreated(); 
             }
         } catch (error) {
             toast.error('Error al crear el libro');

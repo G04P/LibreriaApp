@@ -1,19 +1,16 @@
-// src/__tests__/GlobalContext.test.js
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import { GlobalContext, GlobalContextProvider } from '../Context/GlobalContext';
 import axios from 'axios';
 
-// Mockear axios y toast
 jest.mock('axios');
 jest.mock('react-toastify', () => ({
     toast: {
         error: jest.fn(),
-        success: jest.fn() // Agregamos esto en caso de que uses `toast.success` en algún lugar
+        success: jest.fn() 
     }
 }));
 
-// Componente de prueba
 const TestComponent = () => {
     const { getLibros, createLibro, getAllAutores } = React.useContext(GlobalContext);
 

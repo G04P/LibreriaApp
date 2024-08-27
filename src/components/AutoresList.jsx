@@ -49,7 +49,7 @@ const AutoresList = () => {
                 toast.success('Autor eliminado con éxito');
                 setConfirmDeleteModal(false);
                 setSelectedAutor(null);
-                fetchAutores(); // Recargar la lista de autores después de eliminar
+                fetchAutores();
             } catch (error) {
                 toast.error('Error al eliminar el Autor');
                 console.error('Error al eliminar el Autor:', error);
